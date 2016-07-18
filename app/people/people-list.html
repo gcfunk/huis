@@ -1,6 +1,7 @@
 <div class="people-list">
   <ul>
     <li ng-repeat="person in PeopleCtrl.people">
+      <div class="person-image" style="background-image: url('{{person.image}}')"></div>
       <p>{{person.name}}</p>
     </li>
   </ul>

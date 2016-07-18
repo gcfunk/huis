@@ -1,7 +1,29 @@
+.people-list ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.people-list li {
+  width: 200px;
+  margin: 15px;
+}
+
+.people-list li p {
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+}
+
 .people-list .person-image {
   display: inline-block;
   width: 200px;
   height: 200px;
   background-position: center center;
   background-size: cover;
+  border-radius: 50%;
+  border: 7px solid black;
 }

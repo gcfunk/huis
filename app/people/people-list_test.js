@@ -19,6 +19,7 @@ describe('myApp.peopleList directive tests', function() {
   describe('peopleList directive', function() {
     it('have a list of people', function() {
       expect(controller.people).toBeDefined();
+      expect(controller.people.length).toBeGreaterThan(0);
     });
   });
 });

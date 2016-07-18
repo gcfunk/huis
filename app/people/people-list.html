@@ -1,1 +1,7 @@
-<p>{{"People List Goes Here"}}</p>
+<div class="people-list">
+  <ul>
+    <li ng-repeat="person in PeopleCtrl.people">
+      <p>{{person.name}}</p>
+    </li>
+  </ul>
+</div>

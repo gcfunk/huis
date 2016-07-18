@@ -1,16 +1,23 @@
 'use strict';
 
 describe('myApp.peopleList directive tests', function() {
+  var $scope;
+
   beforeEach(module('myApp'));
 
   describe('peopleList directive', function() {
     it('should exist', function() {
-      module(function($provide) {
-        //$provide.value('version', 'TEST_VER');
-      });
-      inject(function($compile, $rootScope) {
-        var element = $compile('<people-list></people-list>')($rootScope);
-        expect(element).toBeDefined();
+      inject(function($compile, $rootScope, $injector) {
+        var $httpBackend = $injector.get('$httpBackend');
+        $httpBackend.whenGET('people/people-list.html').respond(200, '');
+        var scope = $rootScope.$new();
+        var element = angular.element("<people-list></people-list>");
+        var template = $compile(element)(scope);
+        $httpBackend.flush();
+        scope.$digest();
+        var controller = element.controller('peopleList');
+
+        expect(controller.people).toBeDefined();
       });
     });
   });

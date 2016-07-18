@@ -28,7 +28,9 @@ app.directive("peopleList", function(){
         { name: 'Thor', image: '/images/thor.jpg'},
         { name: 'Vision', image: '/images/vision.jpg'},
         { name: 'Winter Soldier', image: '/images/winter-soldier.jpg'}
-      ]
+      ];
+
+      this.peopleSort = 'name';
     },
     controllerAs: 'PeopleCtrl'
   };

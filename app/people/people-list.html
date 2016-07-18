@@ -1,6 +1,11 @@
 <div class="people-list">
+  <label for="peopleSort"> Sort By: </label>
+  <select name="peopleSort" ng-model="PeopleCtrl.peopleSort">
+    <option value="name">Name (Alphabetical)</option>
+    <option value="-name">Name (Reverse Alphabetical)</option>
+  </select>
   <ul>
-    <li ng-repeat="person in PeopleCtrl.people">
+    <li ng-repeat="person in PeopleCtrl.people | orderBy: PeopleCtrl.peopleSort">
       <div class="person-image" style="background-image: url('{{person.image}}')"></div>
       <p>{{person.name}}</p>
     </li>

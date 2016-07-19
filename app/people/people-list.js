@@ -6,9 +6,9 @@ app.directive("peopleList", function(){
   return {
     restrict: 'E',
     templateUrl: 'people/people-list.html',
-    controller: function() {
+    controller: function($uibModal) {
       this.people = [
-        { name: 'Ant Man', image: '/images/ant-man.png', gender: 'male', details: ''},
+        { name: 'Ant Man', image: '/images/ant-man.png', gender: 'male', details: 'details for ant man'},
         { name: 'Black Panther', image: '/images/black-panther.png', gender: 'male', details: ''},
         { name: 'Black Widow', image: '/images/black-widow.png', gender: 'female', details: ''},
         { name: 'Captain America', image: '/images/captain-america.jpg', gender: 'male', details: ''},
@@ -33,6 +33,20 @@ app.directive("peopleList", function(){
       this.peopleSort = 'name';
 
       this.genderFilter = 'all';
+
+      this.openDetails = function (person) {
+        var modalInstance = $uibModal.open({
+          animation: true,
+          templateUrl: '/people/person-details-modal.html',
+          controller: 'PersonDetailsModalCtrl',
+          size: 'lg',
+          resolve: {
+            person: function () {
+              return person;
+            }
+          }
+        });
+      };
     },
     controllerAs: 'PeopleCtrl'
   };
@@ -50,4 +64,12 @@ app.directive("peopleList", function(){
 
     return out;
   }
+})
+
+.controller('PersonDetailsModalCtrl', function ($scope, $uibModalInstance, person) {
+  $scope.person = person;
+
+  $scope.ok = function () {
+    $uibModalInstance.close();
+  };
 });

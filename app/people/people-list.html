@@ -18,7 +18,7 @@
 
   <ul>
     <li ng-repeat="person in PeopleCtrl.people | bygender:PeopleCtrl.genderFilter | orderBy: PeopleCtrl.peopleSort">
-      <div class="person-image" style="background-image: url('{{person.image}}')"></div>
+      <div class="person-image" style="background-image: url('{{person.image}}')" ng-click="PeopleCtrl.openDetails(person)"></div>
       <p>{{person.name}}</p>
     </li>
   </ul>

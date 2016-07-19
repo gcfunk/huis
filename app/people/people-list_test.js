@@ -28,3 +28,23 @@ describe('myApp.peopleList directive tests', function() {
     });
   });
 });
+
+describe('myApp.PersonDetailsModalCtrl controller tests', function() {
+  var $scope, controller;
+
+  beforeEach(module('myApp'));
+
+  beforeEach(inject(function(_$controller_){
+    $scope = {};
+    var $uibModalInstance = {};
+    var person = {};
+    controller = _$controller_('PersonDetailsModalCtrl', { $scope: $scope, $uibModalInstance: $uibModalInstance, person: person });
+  }));
+
+  describe('PersonDetailsModalCtrl controller', function() {
+    it('exists', function() {
+      expect(controller).toBeDefined();
+      expect($scope.ok).toBeDefined();
+    });
+  });
+});

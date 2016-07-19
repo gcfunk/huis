@@ -7,14 +7,13 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .people-list li {
   width: 200px;
-  margin: 15px;
+  margin: 15px 25px;
 }
 
 .people-list li p {

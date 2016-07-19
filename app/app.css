@@ -20,6 +20,14 @@
   text-align: center;
   font-weight: 800;
   font-size: 30px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  transition: all .2s ease-in-out;
+}
+
+.people-list li:hover p {
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 
 .people-list .person-image {
@@ -33,7 +41,8 @@
   transition: all .2s ease-in-out;
   cursor: pointer;
 }
-.people-list .person-image:hover {
+
+.people-list li:hover .person-image {
   transform: scale(1.3);
 }
 

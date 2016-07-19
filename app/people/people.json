@@ -3,120 +3,120 @@
     "name": "Ant Man",
     "image": "/images/ant-man.png",
     "gender": "male",
-    "details": "details for ant man"
+    "details": "Forced out of his own company by former protégé Darren Cross, Dr. Hank Pym (Michael Douglas) recruits the talents of Scott Lang (Paul Rudd), a master thief just released from prison. Lang becomes Ant-Man, trained by Pym and armed with a suit that allows him to shrink in size, possess superhuman strength and control an army of ants. The miniature hero must use his new skills to prevent Cross, also known as Yellowjacket, from perfecting the same technology and using it as a weapon for evil."
   },
   {
     "name": "Black Panther",
     "image": "/images/black-panther.png",
     "gender": "male",
-    "details": ""
+    "details": "The Black Panther is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer-editor Stan Lee and penciller and co-plotter Jack Kirby, he first appeared in Fantastic Four #5"
   },
   {
     "name": "Black Widow",
     "image": "/images/black-widow.png",
      "gender": "female",
-     "details": ""
+     "details": "Black Widow is a fictional superhero appearing in American comic books published by Marvel Comics. Created by editor and plotter Stan Lee, scripter Don Rico, and artist Don Heck, the character first appeared in Tales of Suspense No. 52"
    },
   {
     "name": "Captain America",
     "image": "/images/captain-america.jpg",
     "gender": "male",
-    "details": ""
+    "details": "Captain America is a fictional superhero appearing in American comic books published by Marvel Comics."
   },
   {
     "name": "Daredevil",
     "image": "/images/daredevil.jpg",
     "gender": "male",
-    "details": ""
+    "details": "Daredevil is a fictional superhero appearing in American comic books published by Marvel Comics. Daredevil was created by writer-editor Stan Lee and artist Bill Everett, with an unspecified amount of input from Jack Kirby"
   },
   {
     "name": "Drax The Destroyer",
     "image": "/images/drax-the-destroyer.jpg",
     "gender": "male",
-    "details": ""
+    "details": "Drax the Destroyer is a fictional character appearing in American comic books published by Marvel Comics. Created by writer/artist Jim Starlin, the character first appeared in Iron Man #55"
   },
   {
     "name": "Falcon",
     "image": "/images/falcon.png",
     "gender": "male",
-    "details": ""
+    "details": "The Falcon (Sam Wilson) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer-editor Stan Lee and artist Gene Colan, and introduced in Captain America #117 (Sept. 1969), the character is mainstream comics' first African-American superhero. Falcon uses mechanical wings to fly and has limited telepathic and empathic control over birds. Following Steve Rogers' retirement, Sam Wilson becomes the newest Captain America and leader of the Avengers."
   },
   {
     "name": "Gamora",
     "image": "/images/gamora.jpeg",
     "gender": "female",
-    "details": ""
+    "details": "Gamora is a fictional character appearing in American comic books published by Marvel Comics. Created by Jim Starlin, the character first appeared in Strange Tales #180 (June 1975). Gamora is the adopted daughter of Thanos, and the last of her species. Her powers include superhuman strength and agility and an accelerated healing factor. She also is an elite combatant, being able to best most of the opponents in the galaxy. She has appeared as the occasional love interest of the superheroes Adam Warlock and Nova, and a member of the group known as the Infinity Watch. The character played a role in the 2007 crossover comic book event Annihilation: Conquest, and became a member of the titular team in its spin-off comic, Guardians of the Galaxy. She has been featured in a variety of associated Marvel merchandise. Zoe Saldana plays the character in the 2014 live-action film Guardians of the Galaxy."
   },
   {
     "name": "Groot",
     "image": "/images/groot.jpg",
     "gender": "not specified",
-    "details": ""
+    "details": "Groot is a fictional superhero appearing in American comic books published by Marvel Comics. Created by Stan Lee, Jack Kirby, and Dick Ayers, the character first appeared in Tales to Astonish #13 (November 1960). An extraterrestrial, sentient tree-like creature, Groot originally appeared as an invader that intended to capture humans for experimentation."
   },
   {
     "name": "Hawkeye",
     "image": "/images/hawkeye.jpg",
     "gender": "male",
-    "details": ""
+    "details": "Hawkeye (Clint Barton) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist Don Heck, the character first appeared as a villain in Tales of Suspense #57 (Sept. 1964) and later joined the Avengers in The Avengers #16 (May 1965). He has been a prominent member of the team ever since. He was also ranked at #44 on IGN's Top 100 Comic Book Heroes list"
   },
   {
     "name": "Hulk",
     "image": "/images/hulk.jpg",
     "gender": "male",
-    "details": ""
+    "details": "The Hulk is a fictional superhero appearing in American comic books published by Marvel Comics. The character was created by Stan Lee and Jack Kirby, and first appeared in The Incredible Hulk #1 (May 1962). Throughout his comic book appearances, the Hulk is portrayed as a large green humanoid that possesses superhuman strength and invulnerability, attributes that grow more potent the angrier he becomes. Hulk is the alter ego of Bruce Banner, a socially withdrawn and emotionally reserved physicist who physically transforms into the Hulk under emotional stress and other specific circumstances at will or against it; these involuntary transformations lead to many complications in Banner's life. When transformed, the Hulk often acts as a dissociated personality separate from Banner. Over the decades of Hulk stories, the Hulk has been represented with several personalities based on Hulk and Banner's fractured psyche, ranging from mindless savage to brilliant warrior, and Banner has taken control of the Hulk's form on occasion. Banner first transforms into the Hulk after being caught in the blast of the gamma bomb he invented while saving Rick Jones, a youth who had wandered onto the testing range."
   },
   {
     "name": "Iron Man",
     "image": "/images/iron-man.jpg",
     "gender": "male",
-    "details": ""
+    "details": "Iron Man (Tony Stark) is a fictional superhero appearing in American comic books published by Marvel Comics, as well as its associated media. The character was created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby. He made his first appearance in Tales of Suspense #39 (cover dated March 1963). An American billionaire playboy, business magnate, and ingenious engineer, Tony Stark suffers a severe chest injury during a kidnapping in which his captors attempt to force him to build a weapon of mass destruction. He instead creates a powered suit of armor to save his life and escape captivity. Later, Stark augments his suit with weapons and other technological devices he designed through his company, Stark Industries. He uses the suit and successive versions to protect the world as Iron Man, while at first concealing his true identity. Initially, Iron Man was a vehicle for Stan Lee to explore Cold War themes, particularly the role of American technology and business in the fight against communism. Subsequent re-imaginings of Iron Man have transitioned from Cold War themes to contemporary concerns, such as corporate crime and terrorism."
   },
   {
     "name": "Quicksilver",
     "image": "/images/quicksilver.jpg",
     "gender": "male",
-    "details": ""
+    "details": "Quicksilver (Pietro Maximoff) is a fictional superhero appearing in American comic books published by Marvel Comics. The character first appeared in the comic book X-Men #4 (March 1964) and was created by Stan Lee and Jack Kirby.  Quicksilver has the superhuman ability to move at great speeds. In most depictions, he is a mutant, a human born with natural superhuman powers. In comic book stories beginning in 2015, he is the product of genetic experimentation by the High Evolutionary. Quicksilver most commonly appears in fiction associated with the X-Men, having been introduced as an adversary for the superhero team. In later stories, he became a superhero himself. He is the twin brother of the Scarlet Witch and, in most depictions, the son of Magneto."
   },
   {
     "name": "Rocket Raccoon",
     "image": "/images/rocket-raccoon.jpg",
     "gender": "male",
-    "details": ""
+    "details": "Rocket Raccoon is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer Bill Mantlo and artist Keith Giffen, the character first appeared in Marvel Preview #7 (Summer 1976). He is an intelligent, anthropomorphic raccoon, who is an expert marksman and master tactician. His name and aspects of his character are a nod to the Beatles' 1968 song \"Rocky Raccoon\". Rocket Raccoon appeared as a prominent member in the 2008 relaunch of the superhero team Guardians of the Galaxy. The character has appeared in several media adaptations as a member of that team, including animated television series, toys, and video games. He appears in the 2014 live-action film Guardians of the Galaxy, with his voice provided by Bradley Cooper."
   },
   {
     "name": "Scarlet Witch",
     "image": "/images/scarlet-witch.jpg",
     "gender": "female",
-    "details": ""
+    "details": "Scarlet Witch (Wanda Maximoff) is a fictional superhero appearing in American comic books published by Marvel Comics. The character first appeared in X-Men #4 (March 1964) and was created by Stan Lee and Jack Kirby. The character has since starred in two self-titled limited series with husband the Vision and appears as a regular team member in superhero title The Avengers.  Scarlet Witch is initially depicted as a mutant, born with the ability to alter reality in unspecific ways. Originally introduced as the daughter of the Golden Age superhero Whizzer, a retcon later established she and her twin brother Quicksilver were the children of X-Men villain Magneto. This parentage was their status quo until 2014, when a further retcon revealed that she and Quicksilver were in fact non-mutants who had been kidnapped and experimented on by the High Evolutionary, and then misled to believe that Magneto was their father."
   },
   {
     "name": "Spider-Man",
     "image": "/images/spider-man.jpg",
     "gender": "male",
-    "details": ""
+    "details": "Spider-Man is a fictional superhero appearing in American comic books published by Marvel Comics existing in its shared universe. The character was created by writer-editor Stan Lee and writer-artist Steve Ditko, and first appeared in the anthology comic book Amazing Fantasy #15 (Aug. 1962) in the Silver Age of Comic Books. Lee and Ditko conceived the character as an orphan being raised by his Aunt May and Uncle Ben, and as a teenager, having to deal with the normal struggles of adolescence in addition to those of a costumed crime-fighter. Spider-Man's creators gave him super strength and agility, the ability to cling to most surfaces, shoot spider-webs using wrist-mounted devices of his own invention, which he calls \"web-shooters\", and react to danger quickly with his \"spider-sense\", enabling him to combat his foes. And later in his life founded his own company call Parker Industries."
   },
   {
     "name": "Starlord",
     "image": "/images/starlord.jpg",
     "gender": "male",
-    "details": ""
+    "details": "Star-Lord (Peter Quill) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by Steve Englehart and Steve Gan, the character first appeared in Marvel Preview #4 (Jan. 1976). The son of a human named Meredith Quill and the Spartoi J'son, Quill assumes the mantle of Star-Lord, an interplanetary policeman."
   },
   {
     "name": "Thor",
     "image": "/images/thor.jpg",
     "gender": "male",
-    "details": ""
+    "details": "Thor is a fictional superhero appearing in American comic books published by Marvel Comics. The character, based on the Norse mythological deity of the same name, is the Asgardian god of thunder and possesses the enchanted hammer Mjolnir, which grants him the ability of flight and weather manipulation amongst his other superhuman attributes.  Debuting in the Silver Age of Comic Books, the character first appeared in Journey into Mystery #83 (Aug. 1962) and was created by editor-plotter Stan Lee, scripter Larry Lieber, and penciller-plotter Jack Kirby. He has starred in several ongoing series and limited series, and is a founding member of the superhero team the Avengers, appearing in each volume of that series. The character has also appeared in associated Marvel merchandise including animated television series, clothing, toys, trading cards, video games, and movies."
   },
   {
     "name": "Vision",
     "image": "/images/vision.jpg",
     "gender": "not specified",
-    "details": ""
+    "details": "The Vision is the name of several fictional superheroes appearing in American comic books published by Marvel Comics. The first Vision was an alien created by Joe Simon and Jack Kirby who first appeared in Marvel Mystery Comics #13 (November 1940). The second Vision is an android and a member of the Avengers who first appeared in The Avengers #57 (October 1968) by Roy Thomas, Stan Lee and John Buscema. The third Vision was the time traveler previously known as Iron Lad, who was fused with the operating system of the second Vision. The second Vision was portrayed by Paul Bettany in the 2015 film Avengers: Age of Ultron; he reprised the role in the 2016 film Captain America: Civil War."
   },
   {
     "name": "Winter Soldier",
     "image": "/images/winter-soldier.jpg",
     "gender": "male",
-    "details": ""
+    "details": "Bucky is the name used by several different fictional superheroes appearing in American comic books published by Marvel Comics, usually as a sidekick to Captain America. The original Bucky, James Buchanan \"Bucky\" Barnes, was created by Joe Simon and Jack Kirby and first appeared in Captain America Comics #1 (cover-dated March 1941), which was published by Marvel's predecessor, Timely Comics. In 2005 the original Bucky was brought back from supposed death as the brain-washed assassin Winter Soldier, and later briefly assumed the role of Captain America when Steve Rogers was presumed to be dead."
   }
 ]

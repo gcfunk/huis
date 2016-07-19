@@ -30,6 +30,12 @@
     "details": "Daredevil is a fictional superhero appearing in American comic books published by Marvel Comics. Daredevil was created by writer-editor Stan Lee and artist Bill Everett, with an unspecified amount of input from Jack Kirby"
   },
   {
+    "name": "Deadpool",
+    "image": "/images/deadpool.jpg",
+    "gender": "male",
+    "details": "Wade Wilson (Ryan Reynolds) is a former Special Forces operative who now works as a mercenary. His world comes crashing down when evil scientist Ajax (Ed Skrein) tortures, disfigures and transforms him into Deadpool. The rogue experiment leaves Deadpool with accelerated healing powers and a twisted sense of humor. With help from mutant allies Colossus and Negasonic Teenage Warhead (Brianna Hildebrand), Deadpool uses his new skills to hunt down the man who nearly destroyed his life."
+  },
+  {
     "name": "Drax The Destroyer",
     "image": "/images/drax-the-destroyer.jpg",
     "gender": "male",

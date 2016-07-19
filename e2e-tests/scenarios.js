@@ -13,18 +13,37 @@ describe('my app', function() {
 
   describe('People List', function() {
 
+    var people, startCount;
+
     beforeEach(function() {
       browser.get('index.html');
-    });
-
-
-    it('should show a list of people', function() {
-      var people = element.all(by.css('.people-list li'));
-      var startCount = 0;
+      people = element.all(by.css('.people-list li'));
       people.count().then(function(originalCount){
         startCount = originalCount;
       });
       expect(people.count()).toBeGreaterThan(0);
+    });
+
+
+    it('should show a list of people', function() {
+      expect(startCount).toBeGreaterThan(0);
+    });
+
+    it('should sort the list of people', function() {
+      // get first person name
+      var firstPerson = element.all(by.css('.people-list li p')).first();
+      var firstPersonName;
+      firstPerson.getText().then(function(text){
+        firstPersonName = text;
+      });
+
+      // sort the list by Name (Reverse Alphabetical)
+      element(by.cssContainingText('option', 'Name (Reverse Alphabetical)')).click();
+
+      // check to make sure the first person is different
+      firstPerson.getText().then(function(text){
+        expect(firstPersonName).not.toEqual(text);
+      });
     });
 
   });

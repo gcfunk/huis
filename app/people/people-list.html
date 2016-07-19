@@ -1,11 +1,23 @@
 <div class="people-list">
-  <label for="peopleSort"> Sort By: </label>
-  <select name="peopleSort" ng-model="PeopleCtrl.peopleSort">
-    <option value="name">Name (Alphabetical)</option>
-    <option value="-name">Name (Reverse Alphabetical)</option>
-  </select>
+
+  <div class="list-controls">
+    <label for="peopleSort"> Sort By: </label>
+    <select name="peopleSort" ng-model="PeopleCtrl.peopleSort">
+      <option value="name">Name (Alphabetical)</option>
+      <option value="-name">Name (Reverse Alphabetical)</option>
+    </select>
+
+    <label for="genderFilter">Filter By: </label>
+    <select name="genderFilter" ng-model="PeopleCtrl.genderFilter">
+      <option value="all">All</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="not specified">Not Specified</option>
+    </select>
+  </div>
+
   <ul>
-    <li ng-repeat="person in PeopleCtrl.people | orderBy: PeopleCtrl.peopleSort">
+    <li ng-repeat="person in PeopleCtrl.people | bygender:PeopleCtrl.genderFilter | orderBy: PeopleCtrl.peopleSort">
       <div class="person-image" style="background-image: url('{{person.image}}')"></div>
       <p>{{person.name}}</p>
     </li>

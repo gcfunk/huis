@@ -46,5 +46,16 @@ describe('my app', function() {
       });
     });
 
+    it('should filter the list of people', function() {
+      // filter the list by gender (female)
+      element(by.cssContainingText('option', 'Female')).click();
+
+      // check to make sure the list is smaller
+      people.count().then(function(count){
+        expect(count).toBeGreaterThan(0);
+        expect(startCount).toBeGreaterThan(count);
+      });
+    });
+
   });
 });

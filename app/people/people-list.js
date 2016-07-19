@@ -20,7 +20,10 @@ app
     restrict: 'E',
     templateUrl: 'people/people-list.html',
     controller: ['People', '$uibModal', function(People, $uibModal) {
-      this.people = People.query();
+      var $this = this;
+      People.query(function(data){
+        $this.people = JSON.parse(angular.toJson(data));
+      });
 
       this.peopleSort = 'name';
 

@@ -12,5 +12,9 @@ var app = angular.module('myApp', [
     .state('people-list', {
       url: '/people-list',
       template: "<people-list></people-list>"
+    })
+    .state('game', {
+      url: '/game',
+      template: "<game></game>"
     });
 });

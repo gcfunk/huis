@@ -6,14 +6,18 @@ var app = angular.module('myApp', [
   'ui.bootstrap',
   'ngResource'
 ]).config(function($stateProvider, $urlRouterProvider){
-  $urlRouterProvider.otherwise("/people-list");
+  $urlRouterProvider.otherwise("//people-list");
 
   $stateProvider
-    .state('people-list', {
+    .state('header', {
+      url: '/',
+      templateUrl: 'header/header.html'
+    })
+    .state('header.people-list', {
       url: '/people-list',
       template: "<people-list></people-list>"
     })
-    .state('game', {
+    .state('header.game', {
       url: '/game',
       template: "<game></game>"
     });

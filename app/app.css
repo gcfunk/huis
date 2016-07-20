@@ -53,3 +53,41 @@
 .modal-title {
   text-align: center;
 }
+
+.game-link-container {
+  text-align: right;
+}
+
+.game-link {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+.game-link:hover {
+  text-decoration: none;
+  background-color: darkgreen;
+  color: white;
+}
+
+.back-link {
+  display: inline-block;
+  background-color: gray;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 25px;
+}
+
+.back-link:hover {
+  text-decoration: none;
+  background-color: darkgray;
+  color: white;
+}

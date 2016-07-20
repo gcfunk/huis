@@ -4,15 +4,25 @@
 
 describe('my app', function() {
 
-  // uncomment this test when I replace ngroute with ui router
-  /*it('should automatically redirect to /view1 when location hash/fragment is empty', function() {
-    browser.get('index.html');
-    expect(browser.getLocationAbsUrl()).toMatch("/view1");
-  });*/
+  describe('Navigation tests', function() {
 
+    beforeEach(function() {
+      browser.get('index.html');
+    });
+
+    it('should automatically redirect to /people-list when location hash/fragment is empty', function() {
+      expect(browser.getLocationAbsUrl()).toMatch("/people-list");
+    });
+
+    it('should switch from people-list to the game and back', function(){
+      element(by.css('.game-link')).click();
+      expect(browser.getLocationAbsUrl()).toMatch("/game");
+      element(by.css('.back-link')).click();
+      expect(browser.getLocationAbsUrl()).toMatch("/people-list");
+    });
+  });
 
   describe('People List', function() {
-
     var people, startCount;
 
     beforeEach(function() {

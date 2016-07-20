@@ -16,7 +16,8 @@ app
       });
 
       this.randomPerson = function() {
-        $this.person = $this.people[0];
+        var randomIndex = Math.floor((Math.random() * $this.people.length));
+        $this.person = $this.people[randomIndex];
         $this.choices = [{name: '1'},{name: '2'},{name: '3'},{name: '4'}];
       }
     }],

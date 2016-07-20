@@ -11,7 +11,8 @@ module.exports = function(config) {
       'bower_components/angular-bootstrap/ui-bootstrap.js',
       'bower_components/angular-resource/angular-resource.js',
       'app.js',
-      'people/**/*.js'
+      'people/**/*.js',
+      'game/**/*.js'
     ],
 
     autoWatch: true,

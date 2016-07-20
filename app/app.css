@@ -88,6 +88,50 @@
 
 .back-link:hover {
   text-decoration: none;
-  background-color: darkgray;
+  background-color: dimgray;
   color: white;
+}
+
+.game-container {
+  text-align: center;
+}
+
+.game-container .person-image {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 7px solid black;
+}
+
+@media (min-width: 500px) {
+  .game-container .person-image {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+.game-container ul {
+  list-style: none;
+  text-align: center;
+}
+
+.game-container li {
+  display: inline-block;
+  background-color: gray;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 20px;
+  font-size: 25px;
+  width: 80%;
+}
+
+.game-container li:hover {
+  text-decoration: none;
+  background-color: dimgray;
+  color: white;
+  cursor: pointer;
 }

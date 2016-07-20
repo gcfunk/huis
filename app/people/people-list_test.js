@@ -8,7 +8,6 @@ describe('myApp.peopleList directive tests', function() {
   beforeEach(inject(function($compile, $rootScope, $injector) {
     // there's got to be an easier way to get an instance of the controller
     var $httpBackend = $injector.get('$httpBackend');
-    $httpBackend.whenGET('header/header.html').respond(200, '');
     $httpBackend.whenGET('people/people-list.html').respond(200, '');
     $httpBackend.whenGET('/people/people.json').respond(200,
       "[{" +

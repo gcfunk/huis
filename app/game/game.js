@@ -44,12 +44,11 @@ app
       };
 
       this.selectedIndex = -1;
-      this.selectedClass = '';
       this.choiceClicked = function ($index) {
         this.selectedIndex = $index;
      };
 
-     this.hasAnswered = function() { 
+     this.hasAnswered = function() {
        return (this.selectedIndex > -1);
      };
     }],

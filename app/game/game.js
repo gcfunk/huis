@@ -37,7 +37,11 @@ app
 
         var randomPersonIndex = Math.floor((Math.random() * $this.choices.length));
         $this.person = $this.choices[randomPersonIndex];
-      }
+      };
+
+      this.checkAnswer = function(person) {
+        return (this.person.name === person.name);
+      };
     }],
     controllerAs: 'GameCtrl'
   };

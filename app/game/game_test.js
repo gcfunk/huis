@@ -53,5 +53,10 @@ describe('myApp.peopleList directive tests', function() {
     it('has a list of 4 choices', function(){
       expect(controller.choices.length).toBe(4);
     })
+
+    it('can check for a right or wrong answer', function() {
+      expect(controller.checkAnswer(controller.person)).toBe(true);
+      expect(controller.checkAnswer({'name': 'wrong answer'})).toBe(false);
+    })
   });
 });

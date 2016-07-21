@@ -10,12 +10,28 @@ describe('myApp.peopleList directive tests', function() {
     var $httpBackend = $injector.get('$httpBackend');
     $httpBackend.whenGET('game/game.html').respond(200, '');
     $httpBackend.whenGET('/people/people.json').respond(200,
-      "[{" +
-      "\"name\": \"Ant Man\"," +
-      "\"image\": \"/images/ant-man.png\"," +
-      "\"gender\": \"male\"," +
-      "\"details\": \"details for ant man\"" +
-      "}]");
+      "[" +
+      "  {" +
+      "    \"name\": \"Ant Man\"," +
+      "    \"image\": \"/images/ant-man.png\"," +
+      "    \"gender\": \"male\"" +
+      "  }," +
+      "  {" +
+      "    \"name\": \"Black Panther\"," +
+      "    \"image\": \"/images/black-panther.png\"," +
+      "    \"gender\": \"male\"" +
+      "  }," +
+      "  {" +
+      "    \"name\": \"Black Widow\"," +
+      "    \"image\": \"/images/black-widow.png\"," +
+      "    \"gende\": \"female\"" +
+      "   }," +
+      "  {" +
+      "    \"name\": \"Captain America\"," +
+      "    \"image\": \"/images/captain-america.jpg\"," +
+      "    \"gender\": \"male\"" +
+      "  }" +
+      "]");
     var scope = $rootScope.$new();
     var element = angular.element("<game></game>");
     var template = $compile(element)(scope);

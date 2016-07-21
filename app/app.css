@@ -144,3 +144,11 @@
 .game-container li.incorrect {
   background-color: red;
 }
+
+.game-container .message {
+  width: 60%;
+  margin: auto;
+  border: 5px solid black;
+  margin-top: 30px;
+  border-radius: 20px;
+}

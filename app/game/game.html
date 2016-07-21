@@ -2,6 +2,11 @@
 <div class="game-container">
   <h1>Who is this?</h1>
   <div class="person-image" style="background-image: url('{{GameCtrl.person.image}}')"></div>
+  <div ng-show="GameCtrl.hasAnswered()" class='message'>
+    <ul>
+      <li ng-click="GameCtrl.randomPerson()">Next Person</li>
+    </ul>
+  </div>
   <ul class="choices">
     <li ng-repeat="choice in GameCtrl.choices"
         ng-class="{ 'correct' : $index == GameCtrl.selectedIndex && GameCtrl.checkAnswer(choice), 'incorrect' : $index == GameCtrl.selectedIndex && !GameCtrl.checkAnswer(choice) }";

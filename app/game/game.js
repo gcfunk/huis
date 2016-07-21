@@ -37,6 +37,8 @@ app
 
         var randomPersonIndex = Math.floor((Math.random() * $this.choices.length));
         $this.person = $this.choices[randomPersonIndex];
+
+        this.selectedIndex = -1;
       };
 
       this.checkAnswer = function(person) {

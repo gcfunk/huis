@@ -4,7 +4,8 @@
 var app = angular.module('myApp', [
   'ui.router',
   'ui.bootstrap',
-  'ngResource'
+  'ngResource',
+  'ngAnimate'
 ]).config(function($stateProvider, $urlRouterProvider){
   $urlRouterProvider.otherwise("/people-list");
 

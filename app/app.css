@@ -136,3 +136,11 @@
   color: white;
   cursor: pointer;
 }
+
+.game-container li.correct {
+  background-color: green;
+}
+
+.game-container li.incorrect {
+  background-color: red;
+}

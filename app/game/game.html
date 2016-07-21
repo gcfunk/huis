@@ -3,6 +3,10 @@
   <h1>Who is this?</h1>
   <div class="person-image" style="background-image: url('{{GameCtrl.person.image}}')"></div>
   <ul class="choices">
-    <li ng-repeat="choice in GameCtrl.choices">{{choice.name}}</li>
+    <li ng-repeat="choice in GameCtrl.choices"
+        ng-class="{ 'correct' : $index == GameCtrl.selectedIndex && GameCtrl.checkAnswer(choice), 'incorrect' : $index == GameCtrl.selectedIndex && !GameCtrl.checkAnswer(choice) }";
+        ng-click="GameCtrl.choiceClicked($index)">
+      {{choice.name}}
+    </li>
   </ul>
 </div>

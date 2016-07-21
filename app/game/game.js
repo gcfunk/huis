@@ -42,6 +42,12 @@ app
       this.checkAnswer = function(person) {
         return (this.person.name === person.name);
       };
+
+      this.selectedIndex = -1;
+      this.selectedClass = '';
+      this.choiceClicked = function ($index) {
+        this.selectedIndex = $index;
+     };
     }],
     controllerAs: 'GameCtrl'
   };

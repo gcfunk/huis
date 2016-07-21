@@ -48,6 +48,10 @@ app
       this.choiceClicked = function ($index) {
         this.selectedIndex = $index;
      };
+
+     this.hasAnswered = function() { 
+       return (this.selectedIndex > -1);
+     };
     }],
     controllerAs: 'GameCtrl'
   };

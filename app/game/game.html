@@ -5,7 +5,7 @@
   <ul class="choices">
     <li ng-repeat="choice in GameCtrl.choices"
         ng-class="{ 'correct' : $index == GameCtrl.selectedIndex && GameCtrl.checkAnswer(choice), 'incorrect' : $index == GameCtrl.selectedIndex && !GameCtrl.checkAnswer(choice) }";
-        ng-click="GameCtrl.choiceClicked($index)">
+        ng-click="GameCtrl.hasAnswered() || GameCtrl.choiceClicked($index)">
       {{choice.name}}
     </li>
   </ul>

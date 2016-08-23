@@ -128,17 +128,17 @@
   border-radius: 20px;
   font-size: 25px;
   width: 80%;
-  opacity: 1;
+  transform: translateX(0px);
 }
 
 .game-container li.ng-enter {
   -webkit-transition: 1s ease-in-out;
   transition: 1s ease-in-out;
-  opacity: 0;
+  transform: translateX(-2000px);
 }
 
 .game-container li.ng-enter-active {
-  opacity: 1;
+  transform: translateX(0px);
 }
 
 .game-container li.ng-enter-stagger {
